@@ -1,0 +1,52 @@
+package reNew02;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class New04 {
+
+	public static void main(String[] args) {
+		/* 컬렉션 프레임워크
+		 * - List : 순서보장 , 중복가능
+		 * - Set : 순서보장X , 중복 불가능
+		 * - Map : 2가지 데이터를 쌍으로 저장 , 순서보장X
+		 *  - key(중복X) : value(중복O) 형태로 저장
+		 */
+		//리스트 생성하고 , 1~10까지 저장한 후 출력
+		
+		ArrayList<Integer> list = new ArrayList<>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(4);
+		list.add(5);
+		list.add(6);
+		list.add(7);
+		list.add(8);
+		list.add(9);
+		list.add(10);
+		System.out.println(list);
+		
+		ArrayList<Integer> list2 = new ArrayList<>();
+		for(int i=1; i<=10; i++) {
+			list2.add(i);
+		}
+		System.out.println(list2);
+		
+		for(Integer tmp : list) {
+			System.out.println(tmp);
+		}
+
+		// 정수를 입력받아서 1부터 입력받은 수 까지 list에 추가하고 합을 출력
+		ArrayList<Integer> list3 = new ArrayList<>();
+		Scanner scan = new Scanner(System.in);
+		int user = 0 ;
+		
+		for(int i=1; i<=user; i++) {
+			
+		}
+		
+	
+	}
+
+}

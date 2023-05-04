@@ -1,0 +1,15 @@
+package reNew02;
+
+public class New04 {
+
+	public static void main(String[] args) {
+		/* 컬렉션 프레임워크
+		 * - List : 순서보장 , 중복가능
+		 * - Set : 순서보장X , 중복 불가능
+		 * - Map : 2가지 데이터를 쌍으로 저장 , 순서보장X
+		 *  - key(중복X) : value(중복O) 형태로 저장
+		 */
+
+	}
+
+}
